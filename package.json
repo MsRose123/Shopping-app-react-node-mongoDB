@@ -1,7 +1,7 @@
 {
-  "name": "react-boiler-plate",
+  "name": "react-node-shopping-app",
   "version": "1.0.0",
-  "description": "react boiler plate",
+  "description": "react-node-shopping-app",
   "main": "index.js",
   "engine": {
     "node": "10.16.0",
@@ -9,11 +9,11 @@
   },
   "scripts": {
     "start": "node server/index.js",
-    "backend": "nodemon server/index.js",
+    "backend": "npx nodemon server/index.js",
     "frontend": "npm run start --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
-  "author": "John ahn",
+  "author": "Divya",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.6",
